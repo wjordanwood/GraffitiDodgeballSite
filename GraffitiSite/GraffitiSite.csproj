@@ -184,6 +184,11 @@
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
     </None>
+    <Content Include="Content\styles\views\_home.scss" />
+    <Content Include="Content\styles\views\_tournament.scss" />
+    <Content Include="Content\styles\views\_shared.scss" />
+    <Content Include="Content\styles\views\_navigation.scss" />
+    <Content Include="Content\styles\settings\_colors.scss" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
