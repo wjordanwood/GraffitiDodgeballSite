@@ -159,6 +159,9 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\images\Julius.jpg" />
+    <Content Include="Content\images\Ayanna.png" />
+    <Content Include="Content\images\Joshua.jpg" />
     <Content Include="Content\scripts\jquery.challonge.js" />
     <Content Include="Content\styles\site.css">
       <DependentUpon>site.scss</DependentUpon>
@@ -208,7 +211,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Content\images\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
