@@ -10,7 +10,7 @@ namespace GraffitiSite.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            return RedirectToAction("Registration");
         }
 
         public ActionResult About()
@@ -20,7 +20,14 @@ namespace GraffitiSite.Controllers
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult Register()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+
+        public ActionResult Standings()
         {
             ViewBag.Message = "Your contact page.";
 

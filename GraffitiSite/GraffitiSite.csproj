@@ -159,8 +159,10 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\images\Ayanna.jpg" />
+    <Content Include="Content\images\brooklynbackground.jpg" />
+    <Content Include="Content\images\graffitilogo.png" />
     <Content Include="Content\images\Julius.jpg" />
-    <Content Include="Content\images\Ayanna.png" />
     <Content Include="Content\images\Joshua.jpg" />
     <Content Include="Content\scripts\jquery.challonge.js" />
     <Content Include="Content\styles\site.css">
@@ -207,7 +209,9 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Tournament\Index.cshtml" />
+    <Content Include="Views\Tournament\Standings.cshtml" />
+    <Content Include="Views\Tournament\About.cshtml" />
+    <Content Include="Views\Tournament\Register.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
