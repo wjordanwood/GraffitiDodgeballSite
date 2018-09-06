@@ -74,6 +74,7 @@ ipch/
 *.psess
 *.vsp
 *.vspx
+*.vs
 
 # TFS 2012 Local Workspace
 $tf/
@@ -155,6 +156,7 @@ ClientBin/
 *.dbproj.schemaview
 *.pfx
 *.publishsettings
+*.sqlite
 node_modules/
 
 # RIA/Silverlight projects
@@ -187,13 +189,13 @@ FakesAssemblies/
 *.pubxml
 *.dll
 
+# Visual Studio 2015 cache/options directory
+.vs/
+
 #Ignore All CSS Files that are Changed Regularly             
 #Comment this prior to cloning a new Repo
 #Then Un-Comment this after pushing to that new Repo once
 /**/Content/styles/*.css             
 /**/Content/styles/*.css.map
 /.vs/config/applicationhost.config
-/Backoffice/Content/styles/site.css
-/Backoffice/Content/styles/site.min.css
-/ReplicatedSite/Content/styles/site.css
-/ReplicatedSite/Content/styles/site.min.css
+/Content/styles/site.min.css
