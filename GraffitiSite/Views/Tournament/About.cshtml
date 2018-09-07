@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "About Tournament";
+}
+
+<div id="view-about-tourney">
+    <h2>About The Tournament</h2>
+
+    <section class="tourney-info">
+        <p><strong>Where: </strong> Weatherford High School 2121 Bethel Rd, Weatherford, TX 76087</p>
+        <p><strong>When: </strong> October 12, 2018 6:30-9:30 PM</p>
+        <p><strong>Teams: </strong> 10 people co-ed (6 players on court)</p>
+        <h3 class="text-strong">Divisions:</h3>
+        <ul>
+            <li>Kindergarten - 3rd Grade</li>
+            <li>4th - 6th Grade</li>
+            <li>Middle School</li>
+            <li>High School</li>
+            <li>Adult</li>
+        </ul>
+        <p><strong>Tournament Structure: </strong> Double Elimination</p>
+        <p><strong>Last Day to Register: </strong> October 10, 2018</p>
+    </section>
+    <section class="call-to-action">
+        <h2>Feelin' Lucky?</h2>
+        <p>Do you think you have what it takes to Dodge, Duck, Dip, Dive and Dodge your way to victory? Sign Up by clicking the button below.</p>
+        <a href="@Url.Action("Register", "Tournament")" class="btn btn-primary">Register Here</a>
+    </section>
+</div>
+

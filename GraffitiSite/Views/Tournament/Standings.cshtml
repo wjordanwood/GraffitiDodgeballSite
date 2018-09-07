@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "Tournament";
+}
+
+<div id="view-tourney">
+    <h2>Watch the Tournament Results Live</h2>
+
+    <h3>Adults</h3>
+    <div class="tourney-target division-1"></div>
+
+    <h3>High School</h3>
+    <div class="tourney-target division-2"></div>
+
+    <h3>Middle School</h3>
+    <div class="tourney-target division-3"></div>
+
+    <h3>4th - 6th Grade</h3>
+    <div class="tourney-target division-4"></div>
+
+    <h3>Kindergarten - 3rd Grade</h3>
+    <div class="tourney-target division-5"></div>
+
+</div>
+
+@section scripts{
+    <script>
+        $(function () {
+            $('.tourney-target.division-1').challonge('GraffitiDodgeballTourney', { subdomain: '', theme: '1', multiplier: '1.0', match_width_multiplier: '1.0', show_final_results: '1', show_standings: '1' });
+            $('.tourney-target.division-2').challonge('GraffitiDodgeballTourney', { subdomain: '', theme: '1', multiplier: '1.0', match_width_multiplier: '1.0', show_final_results: '1', show_standings: '1' });
+            $('.tourney-target.division-3').challonge('GraffitiDodgeballTourney', { subdomain: '', theme: '1', multiplier: '1.0', match_width_multiplier: '1.0', show_final_results: '1', show_standings: '1' });
+            $('.tourney-target.division-4').challonge('GraffitiDodgeballTourney', { subdomain: '', theme: '1', multiplier: '1.0', match_width_multiplier: '1.0', show_final_results: '1', show_standings: '1' });
+            $('.tourney-target.division-5').challonge('GraffitiDodgeballTourney', { subdomain: '', theme: '1', multiplier: '1.0', match_width_multiplier: '1.0', show_final_results: '1', show_standings: '1' });
+        });
+    </script>
+}
